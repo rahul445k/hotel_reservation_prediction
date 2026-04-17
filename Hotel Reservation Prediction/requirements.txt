@@ -1,0 +1,9 @@
+pandas 
+numpy
+seaborn
+scikit-learn
+pyyaml
+imbalanced-learn
+lightgbm
+mlflow
+flask

@@ -1,0 +1,115 @@
+2026-01-06 12:20:47,805 - INFO - Successfully read the YAML file from: C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\config\config.yaml
+2026-01-06 12:20:47,805 - INFO - Data Ingestion started with my_bucket_aiops and file is Hotel_Reservations.csv
+2026-01-06 12:20:47,805 - INFO - Starting data ingestion process
+2026-01-06 12:20:59,926 - ERROR - Error while downloading the csv file
+2026-01-06 12:20:59,927 - ERROR - CustomException : Error in C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\src\data_ingestion.py , line 25 : Failed to downlaod csv file 
+2026-01-06 12:20:59,927 - INFO - Data ingestion completed
+2026-01-06 12:23:07,510 - INFO - Successfully read the YAML file from: C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\config\config.yaml
+2026-01-06 12:23:07,511 - INFO - Loading data from RAW directory
+2026-01-06 12:23:07,511 - INFO - Loading data
+2026-01-06 12:23:07,512 - ERROR - Error loading the data [Errno 2] No such file or directory: 'C:\\Users\\athrv\\OneDrive\\Documents\\Projects\\Hotel Reservation Prediction\\PROJECT CODE\\artifacts\\raw\\train.csv'
+2026-01-06 12:23:07,512 - ERROR - Error during preprocessing pipeline Error in C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\utils\common_functions.py , line 28 : Failed to load data
+2026-01-06 15:39:09,881 - INFO - Successfully read the YAML file from: C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\config\config.yaml
+2026-01-06 15:39:09,883 - INFO - Data Ingestion initialized
+2026-01-06 15:39:09,883 - INFO - Local dataset path: C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\DATASET\Hotel Reservations.csv\Hotel Reservations.csv
+2026-01-06 15:39:09,883 - INFO - Output directory: C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\artifacts\raw
+2026-01-06 15:39:09,883 - INFO - Train/Test split ratio: 0.8/0.2
+2026-01-06 15:39:09,883 - INFO - ============================================================
+2026-01-06 15:39:09,883 - INFO - Starting Data Ingestion Process
+2026-01-06 15:39:09,883 - INFO - ============================================================
+2026-01-06 15:39:09,883 - INFO - Loading dataset from: C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\DATASET\Hotel Reservations.csv\Hotel Reservations.csv
+2026-01-06 15:39:10,068 - INFO - Dataset loaded successfully with shape: (36275, 19)
+2026-01-06 15:39:10,312 - INFO - Raw data saved to: C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\artifacts\raw\raw.csv
+2026-01-06 15:39:10,312 - INFO - Starting data splitting process
+2026-01-06 15:39:10,313 - INFO - Total records: 36275
+2026-01-06 15:39:10,529 - INFO - Train data saved to: C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\artifacts\raw\train.csv
+2026-01-06 15:39:10,529 - INFO - Train records: 29020 (80.0%)
+2026-01-06 15:39:10,570 - INFO - Test data saved to: C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\artifacts\raw\test.csv
+2026-01-06 15:39:10,570 - INFO - Test records: 7255 (20.0%)
+2026-01-06 15:39:10,570 - INFO - Data splitting completed successfully
+2026-01-06 15:39:10,572 - INFO - ============================================================
+2026-01-06 15:39:10,572 - INFO - Data Ingestion Completed Successfully!
+2026-01-06 15:39:10,572 - INFO - ============================================================
+2026-01-06 15:39:10,572 - INFO - Files created:
+2026-01-06 15:39:10,572 - INFO -   1. Raw data: C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\artifacts\raw\raw.csv
+2026-01-06 15:39:10,572 - INFO -   2. Train data: C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\artifacts\raw\train.csv
+2026-01-06 15:39:10,572 - INFO -   3. Test data: C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\artifacts\raw\test.csv
+2026-01-06 15:39:10,572 - INFO - ============================================================
+2026-01-06 22:50:18,661 - INFO - Successfully read the YAML file from: C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\config\config.yaml
+2026-01-06 22:50:18,663 - INFO - Loading data from RAW directory
+2026-01-06 22:50:18,663 - INFO - Loading data
+2026-01-06 22:50:18,722 - INFO - Loading data
+2026-01-06 22:50:18,737 - INFO - Starting Data Processing step
+2026-01-06 22:50:18,738 - INFO - Initial shape: (29020, 19)
+2026-01-06 22:50:18,738 - INFO - Columns: ['Booking_ID', 'no_of_adults', 'no_of_children', 'no_of_weekend_nights', 'no_of_week_nights', 'type_of_meal_plan', 'required_car_parking_space', 'room_type_reserved', 'lead_time', 'arrival_year', 'arrival_month', 'arrival_date', 'market_segment_type', 'repeated_guest', 'no_of_previous_cancellations', 'no_of_previous_bookings_not_canceled', 'avg_price_per_room', 'no_of_special_requests', 'booking_status']
+2026-01-06 22:50:18,741 - INFO - Dropping columns: ['Booking_ID']
+2026-01-06 22:50:18,766 - INFO - Removed 7661 duplicate rows
+2026-01-06 22:50:18,766 - INFO - Applying Label Encoding
+2026-01-06 22:50:18,780 - INFO - Label Mappings:
+2026-01-06 22:50:18,780 - INFO -   type_of_meal_plan: {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2026-01-06 22:50:18,780 - INFO -   required_car_parking_space: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2026-01-06 22:50:18,780 - INFO -   room_type_reserved: {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2026-01-06 22:50:18,780 - INFO -   market_segment_type: {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2026-01-06 22:50:18,780 - INFO -   repeated_guest: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2026-01-06 22:50:18,780 - INFO -   booking_status: {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2026-01-06 22:50:18,780 - INFO - Handling Skewness
+2026-01-06 22:50:18,784 - INFO - Skewness values:
+no_of_adults                            -0.305652
+no_of_children                           4.165696
+no_of_weekend_nights                     0.636637
+no_of_week_nights                        1.553657
+lead_time                                1.405258
+arrival_year                            -1.953273
+arrival_month                           -0.293266
+arrival_date                             0.010333
+no_of_previous_cancellations            22.001489
+no_of_previous_bookings_not_canceled    16.735934
+avg_price_per_room                       0.542888
+no_of_special_requests                   0.922373
+dtype: float64
+2026-01-06 22:50:18,785 - INFO - Applying log transformation to skewed columns: ['no_of_previous_cancellations', 'no_of_previous_bookings_not_canceled']
+2026-01-06 22:50:18,786 - INFO - Final shape after preprocessing: (21359, 18)
+2026-01-06 22:50:18,786 - INFO - Starting Data Processing step
+2026-01-06 22:50:18,786 - INFO - Initial shape: (7255, 19)
+2026-01-06 22:50:18,786 - INFO - Columns: ['Booking_ID', 'no_of_adults', 'no_of_children', 'no_of_weekend_nights', 'no_of_week_nights', 'type_of_meal_plan', 'required_car_parking_space', 'room_type_reserved', 'lead_time', 'arrival_year', 'arrival_month', 'arrival_date', 'market_segment_type', 'repeated_guest', 'no_of_previous_cancellations', 'no_of_previous_bookings_not_canceled', 'avg_price_per_room', 'no_of_special_requests', 'booking_status']
+2026-01-06 22:50:18,786 - INFO - Dropping columns: ['Booking_ID']
+2026-01-06 22:50:18,790 - INFO - Removed 1208 duplicate rows
+2026-01-06 22:50:18,791 - INFO - Applying Label Encoding
+2026-01-06 22:50:18,797 - INFO - Label Mappings:
+2026-01-06 22:50:18,797 - INFO -   type_of_meal_plan: {'Meal Plan 1': np.int64(0), 'Meal Plan 2': np.int64(1), 'Meal Plan 3': np.int64(2), 'Not Selected': np.int64(3)}
+2026-01-06 22:50:18,797 - INFO -   required_car_parking_space: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2026-01-06 22:50:18,797 - INFO -   room_type_reserved: {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2026-01-06 22:50:18,797 - INFO -   market_segment_type: {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2026-01-06 22:50:18,797 - INFO -   repeated_guest: {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2026-01-06 22:50:18,797 - INFO -   booking_status: {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2026-01-06 22:50:18,797 - INFO - Handling Skewness
+2026-01-06 22:50:18,799 - INFO - Skewness values:
+no_of_adults                            -0.278636
+no_of_children                           3.702839
+no_of_weekend_nights                     0.751952
+no_of_week_nights                        1.801200
+lead_time                                1.393989
+arrival_year                            -1.829577
+arrival_month                           -0.334643
+arrival_date                             0.015388
+no_of_previous_cancellations            24.406847
+no_of_previous_bookings_not_canceled    16.318580
+avg_price_per_room                       0.815533
+no_of_special_requests                   0.958781
+dtype: float64
+2026-01-06 22:50:18,799 - INFO - Applying log transformation to skewed columns: ['no_of_previous_cancellations', 'no_of_previous_bookings_not_canceled']
+2026-01-06 22:50:18,801 - INFO - Final shape after preprocessing: (6047, 18)
+2026-01-06 22:50:18,801 - INFO - Handling Imbalanced Data
+2026-01-06 22:50:19,075 - INFO - Data balanced sucesffuly
+2026-01-06 22:50:19,075 - INFO - Handling Imbalanced Data
+2026-01-06 22:50:19,096 - INFO - Data balanced sucesffuly
+2026-01-06 22:50:19,096 - INFO - Starting our Feature selection step
+2026-01-06 22:50:22,814 - INFO - Features selected : ['lead_time' 'no_of_special_requests' 'avg_price_per_room' 'arrival_month'
+ 'arrival_date' 'market_segment_type' 'no_of_week_nights'
+ 'no_of_weekend_nights' 'type_of_meal_plan' 'room_type_reserved']
+2026-01-06 22:50:22,816 - INFO - Feature slection completed sucesfully
+2026-01-06 22:50:22,824 - INFO - Saving our data in processed folder
+2026-01-06 22:50:22,933 - INFO - Data saved sucesfuly to C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\artifacts\processed\processed_train.csv
+2026-01-06 22:50:22,933 - INFO - Saving our data in processed folder
+2026-01-06 22:50:22,954 - INFO - Data saved sucesfuly to C:\Users\athrv\OneDrive\Documents\Projects\Hotel Reservation Prediction\PROJECT CODE\artifacts\processed\processed_test.csv
+2026-01-06 22:50:22,954 - INFO - Data processing completed sucesfully

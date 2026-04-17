@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "thermal-diorama-483306-i5",
+  "private_key_id": "2c6f79eef3da5498e8ccadb0aaf8a7cfb9d9ba54",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCY58Qdjfv8ukFb\nhcNlygR8xuSudG4E3KncbWJSzDuRoqBrT58LsfgRy4HBZzVf2yxpVprvhNItTovS\nfBaDlqLvJcRVXpiNsLuZ3dP6qEnj1w1MvE5rGdQonO4thiKA7WK5HC0RX1QjXHKc\nO5DfN867Pg5/pcIwKHzLQeDgNgxdbCjONLL+AI82yCsIVikeM6rsZQv5b5J2B1Is\nU/s2wsvbIfutjSPcRiqfSNDc69M+vDhH/v73NBSmk3qBcck6ILLmeenNrQN5KYuj\nYx+FaSpn7eImoA4FFEdbYMvWxAdiEQygRKlZ1QCl3hH3yUNid8MZ33PBDS1m4nnY\nFCQCLxk5AgMBAAECggEAIpZWkdris73L9/BvjTBfyHvTEbVLh7UEhVSG57TECsLv\nJ6cIkoQs2ZWfoch/VdIFn0RUYra4NkBst22TSCvEanUwDqGJv49JOFppz2rO4Adu\nvjtgP7DFgXRSGiEb3+8SpE2/0gyuwxrv3/BHan68uDUm4W/016Do7a9Wt1DyhhUO\nAKTfQZfVWi4Qeo/FfxnyAg5q5unnuXmtkRJ9T+4xMOKUimKWTYeEAvsw0iQz4MQl\nzJO4dZ0Omx1CjN8JnzIKB/ymQ/oIG4IYtt9ey7gBYMtP/PvUIOZg85rPAu+m6/D2\nlnLI8jIE+k30E04lWPzIWMhBja0/VPAlDw7RMj+IqQKBgQDUVh0jeWKGm727UjeA\n7gG1DEuzaitZKi1wCHXjXC/SwIOTFYo1q5UzmbYcJDBQgtrvGaXOg5uLnzGPx6+8\n2mCYihonrG36k6l9ba4aO3hx/LqJw/BBwxVqhvHlvZVdgblT6kOcUYTzjoWFfBIC\nVqNtVBBYHaYWscnx+D4y3HYCLQKBgQC4WQ/0md1rW0TT6TI/UUzfMWJVNmEPZ4sN\nDGyfWqfz07nd+nvrn7Bk9FXc8X6LDKDJPe7dfKT00TISMxqM8+v6lgFYjjB8Ak89\n3QN4MXuM7lPFYWdCO9Jl88nnJcSyU+goEdvLpRQiZSskjAxX0A0x9M3VOe3I1LlP\npw7u10I2vQKBgDZNL3Z6/G9gNM1K4VbfhyA93L4tUJik6KnWAA/8614CTaO3xnij\nQKzJioD34EM2s7ah4H1Huueh9pLGhnLNhhZ8euPafOWwDZA+FGAxBURhVXMV4MNw\nmHF9wS73pNMc8cA8EL5ROqbus8bHS/O9JF45OVTPgEIdhX+T9JQdPTChAoGBAIo9\n76MkB1FMni6zv4SP+S+envj70Il2wmXEnWha2XwVmFqITomBtQvf1svbJWQs0h5X\nnVrm7+TPQ9c2D4EIIjxGZTf9WQqFyNrBdKqboOUsjBGGW6LlrX/a89utDPYVyhDS\nY5sxbgnlCBdeFpt7X4nI5NozmMd0DotW4fHl5reZAoGBAKGbVRgmwI9mnAQfnzZP\n++mjFVnMRnTirvui8wc/BEjSOtgPrnQiIuT8eBuKUl3ePFnAUbYKsFSf3FluSRLR\nKiEM0tzZy1urDevoCnlhESAnyCgH2ttoiT1tTefAyPfsoTJxdEQEhNnn3l11+AyA\n6A+th2dM2gBzTMHxJ1Zqw8A3\n-----END PRIVATE KEY-----\n",
+  "client_email": "mlops-htl-reserv01@thermal-diorama-483306-i5.iam.gserviceaccount.com",
+  "client_id": "105007421134012056689",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mlops-htl-reserv01%40thermal-diorama-483306-i5.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
